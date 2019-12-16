@@ -1,0 +1,22 @@
+export default [
+    {
+        path:'/',
+        text:'Home'
+    },
+    {
+        path:'/places',
+        text:'places'
+    },
+    {
+        path:'/blog',
+        text:'blog'
+    },
+    {
+        path:'/contact',
+        text:'contact'
+    },
+    {
+        path:'/',
+        text:'Home'
+    },
+]
