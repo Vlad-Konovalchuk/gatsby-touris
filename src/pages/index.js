@@ -6,6 +6,7 @@ import MainBanner from "../components/MainBanner"
 import Banner from "../components/Banner"
 import { Link } from "gatsby"
 import About from "../components/Home/About"
+import Tips from "../components/Home/Tips"
 
 export default () => (
   <Layout>
@@ -20,5 +21,6 @@ export default () => (
       </Banner>
     </MainBanner>
     <About />
+    <Tips />
   </Layout>
 )
