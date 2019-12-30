@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
-          <img src={logo} c lassName={styles.brandLogo} alt="Logo" />
+          <img src={logo} className={styles.brandLogo} alt="Logo" />
           <button className={styles.logoBtn} onClick={toggleNav}>
             <FaAlignRight className={styles.logoIcon} />
           </button>

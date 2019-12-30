@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 export default function errorPage() {
   return (
     <Layout>
-      <header className={styles.error}>
+      <header >
         <Banner title="oops, something wrong">
           <Link to="/" >back to home page</Link>
         </Banner>
